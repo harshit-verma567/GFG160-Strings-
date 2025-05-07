@@ -3,7 +3,7 @@ class GfG {
         int sign = 1, res = 0, idx = 0;
 // Ignore leading whitespaces
         while (idx < s.length() && s.charAt(idx) == ' ') {
-            idx++;
+            idx++; 
         }
 // Store the sign of number
         if (idx < s.length() && (s.charAt(idx) == '-' 
